@@ -75,7 +75,9 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               ActionChip(
                 label: Text("Logout"),
-                onPressed: () {},
+                onPressed: () {
+                  logout(context);
+                },
               )
             ],
           ),
